@@ -26,7 +26,7 @@ const createNewElement = () => {
 
   // Using dot.notation to access the new element's properties
   newElement.appendChild(textNode)
-  newElement.classList.add("animated", "infinite", animationName)
+  newElement.classList.add("animate__animated", "animate__infinite", "animate__"+animationName)
   newElement.style.color = elementColor
 
   // attach the new element to the parent
